@@ -8,7 +8,7 @@ const BlogsContainer = () => {
     const [blogs, setBlogs] = useState([])
 
     useEffect(() => {
-        gatData('blogs', setBlogs)
+        getData('blogs', setBlogs)
     }, [])
 
     return (
