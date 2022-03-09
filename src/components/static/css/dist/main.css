@@ -1,0 +1,84 @@
+body {
+  overflow-x: hidden;
+}
+
+.app-header {
+  position: fixed;
+  width: 100vw;
+  height: 8vh;
+  display: flex;
+  background: rgba(20, 39, 66, 0.5);
+  backdrop-filter: brightness(0);
+  padding: 0 0 0 3vw;
+  align-items: center;
+}
+.app-header .app-logo {
+  height: 80%;
+}
+.app-header .menu {
+  display: flex;
+  width: 85%;
+  margin: 0 0 0 4rem;
+  transition: all 0.3s ease-in;
+  justify-content: space-between;
+}
+.app-header .menu .menu-list a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 0 1rem;
+  transition: all 0.3s ease-in;
+}
+.app-header .menu .menu-list a:hover {
+  filter: brightness(1.2);
+}
+.app-header .menu .right .register {
+  background: #ac3939;
+  padding: 0.8rem;
+}
+.app-header .menu .right .login {
+  background: #203d8d;
+  padding: 0.8rem;
+}
+.app-header .burger {
+  display: none;
+}
+@media (max-width: 768px) {
+  .app-header {
+    justify-content: space-around;
+  }
+  .app-header .menu {
+    position: absolute;
+    margin: 0;
+    background: rgba(15, 28, 46, 0.9);
+    backdrop-filter: blur(10px);
+    top: 8vh;
+    left: 0;
+    height: 92vh;
+    width: 100vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: all 0.3s ease-in;
+  }
+  .app-header .menu .menu-list {
+    display: flex;
+    flex-direction: column;
+  }
+  .app-header .menu .menu-list a {
+    margin: 2rem;
+  }
+  .app-header .closed {
+    display: none;
+    transition: 0.3s;
+  }
+  .app-header .open {
+    display: flex;
+    transition: 0.3s;
+  }
+  .app-header .burger {
+    display: block;
+  }
+}

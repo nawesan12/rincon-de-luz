@@ -1,0 +1,60 @@
+.register-page {
+  width: 50vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.register-page h1 {
+  font-size: 2.8rem;
+}
+
+.register-page h2 {
+  font-size: 2.2rem;
+}
+
+.register-page p {
+  text-align: left;
+  font-size: 1.2rem;
+  opacity: .7;
+  padding: 5vh 0;
+}
+
+.register-page .form-container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.register-page input, .register-page textarea {
+  width: 70%;
+  display: block;
+  outline: none;
+  border: 2px solid #ccc;
+  padding: .8rem 1.5rem;
+  margin: .5rem auto;
+}
+
+.register-page button {
+  margin: 1rem;
+  border: none;
+  background: #203d8d;
+  padding: 1rem 1.5rem;
+  border-radius: .5rem;
+  color: #fff;
+  font-weight: 500;
+}
+/*# sourceMappingURL=register.css.map */

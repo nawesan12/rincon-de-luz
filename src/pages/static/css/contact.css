@@ -1,0 +1,49 @@
+.contact {
+  margin-top: 15vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contact .contact_list li {
+  list-style-type: none;
+  font-size: 1.2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contact .contact_list li svg {
+  margin-right: 1rem;
+}
+
+.contact .leaflet_map {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  height: 65vh;
+  width: 85vw;
+  margin: 4rem 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.contact .leaflet_map img {
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+/*# sourceMappingURL=contact.css.map */

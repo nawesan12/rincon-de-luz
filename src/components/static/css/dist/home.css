@@ -1,0 +1,112 @@
+.home .presentation {
+  width: 100vw;
+  height: 92vh;
+  background: url("https://www.bespokelifestyles.org.au/wp-content/uploads/2019/01/contact-bespoke-lifestyles-footer-form-background.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.home .presentation h1 {
+  color: white;
+  font-size: 6rem;
+  text-align: center;
+  line-height: 2;
+}
+.home .presentation p {
+  color: white;
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-align: center;
+}
+.home .presentation a {
+  margin: 3rem;
+  padding: 1rem;
+  background: #203d8d;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s ease-in;
+}
+.home .presentation a:hover {
+  background: #2c5cad;
+}
+.home .collaborate {
+  width: 100vw;
+  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+  grid-template-rows: 30vh;
+}
+.home .collaborate .donatenow {
+  grid-column: 1/2;
+  background: #203d8d;
+}
+.home .collaborate .collaboratewithus {
+  grid-column: 2/3;
+  background: #443f3f;
+}
+.home .collaborate .childphoto {
+  grid-column: 3/4;
+  background-image: url(//a6e8z9v6.stackpathcdn.com/chariti/demo1/wp-content/uploads/sites/2/2020/02/child.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.home .collaborate .quote {
+  color: black;
+  font-size: 1.8rem;
+  padding: 5rem 3rem 2rem;
+  color: white;
+}
+.home .collaborate a {
+  color: #ac3939;
+  font-size: 1.2rem;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0 3rem 0;
+  display: flex;
+}
+.home .collaborate a:hover {
+  color: #ac3939;
+  text-decoration: underline;
+}
+@media (max-width: 768px) {
+  .home .presentation {
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+  }
+  .home .presentation h1 {
+    font-size: 3rem;
+  }
+  .home .presentation p {
+    font-size: 1.5rem;
+  }
+  .home .presentation a {
+    margin-top: 3.5rem;
+  }
+  .home .collaborate {
+    grid-template-columns: 1fr;
+    grid-template-rows: 35vh 30vh;
+  }
+  .home .collaborate .donatenow {
+    grid-column: 1;
+    grid-row: 1/2;
+    background: #203d8d;
+  }
+  .home .collaborate .collaboratewithus {
+    grid-column: 1;
+    grid-row: 2/3;
+    background: #443f3f;
+  }
+  .home .collaborate .childphoto {
+    display: none;
+  }
+  .home .collaborate .quote {
+    padding: 5rem 1rem 2rem;
+  }
+  .home .collaborate a {
+    padding: 0 1rem 0;
+  }
+}
