@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { getDocs, collection } from 'firebase/firestore'
-import db from '../database/firebase'
+import { getData } from './AdminComps/services/getData'
 
 import './static/css/blogarticle.css'
 
@@ -9,19 +8,7 @@ const BlogsContainer = () => {
     const [blogs, setBlogs] = useState([])
 
     useEffect(() => {
-        const getBlogs = async () => {
-            const blog = await getDocs(collection(db, 'blogs'))
-            const blogs = []
-
-            blog.forEach((doc) => {
-                const { createdAt, title, content, image } = doc.data()
-                blogs.push({ createdAt, title, content, image })
-            })
-
-            setBlogs(blogs)
-        }
-
-        getBlogs()
+        gatData('blogs', setBlogs)
     }, [])
 
     return (

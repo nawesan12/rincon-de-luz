@@ -8,9 +8,7 @@ export default function Footer() {
                 <article className="first article">
                     <img src={logo} alt="Rincon de Luz Logo" />
                     <label>Rincon de Luz</label>
-
                     <p>Lorem ipsum dolor sit amet, lorem ipsum dolor sit amet, lorem ipsum dolor sit amet, lorem ipsum dolor sit amet, </p>
-
                     <div className="social">
                         <a href="https://facebook.com/">
                             <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-brand-facebook" width="28" height="28" viewBox="0 0 24 24" strokeWidth="1" stroke="#ffffff" fill="#fff" strokeLinecap="round" strokeLinejoin="round">
@@ -51,7 +49,6 @@ export default function Footer() {
                         <p className="location">Tierra del Fuego 3219</p>
                         <p className="location">Mar del Plata</p>
                     </div>
-
                     <span>
                         <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-phone" width="20" height="20" viewBox="0 0 24 24" strokeWidth="1.5" stroke="#ac3939" fill="none" strokeLinecap="round" strokeLinejoin="round">
                             <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
@@ -86,7 +83,6 @@ export default function Footer() {
             <section className="foot">
                 <p><a href="https://github.com/">Politicas | Privacidad</a></p>
                 <p>Copyright 2021 - Nahuel Santillan <br/> Todos los derechos reservados</p>
-                
             </section>
         </footer>
     )
