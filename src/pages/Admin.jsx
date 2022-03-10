@@ -1,5 +1,5 @@
 import React from 'react'
-import MainAdmin from '../components/MainAdmin'
+import MainAdmin from '../components/MainAdmin.jsx'
 
 function Admin() {
   return (

@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import '../components/static/css/donate.css'
 
-import CommentsForm from '../components/CommentsForm';
+import CommentsForm from '../components/CommentsForm.jsx';
 
 export default function Donate() {
 

@@ -137,6 +137,141 @@
   float: right;
 }
 
+.wrapper .outlet .volunteers_section {
+  text-align: center;
+  padding: 2rem 0 -2rem;
+}
+
+.wrapper .outlet .volunteers_section h1 {
+  font-size: 2rem;
+}
+
+.wrapper .outlet .volunteers_section .volunteer_form {
+  -webkit-transform: translateY(-100%);
+          transform: translateY(-100%);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+.wrapper .outlet .volunteers_section .volunteer_form div {
+  height: content;
+  width: 30rem;
+  background: #fff;
+  border-radius: .5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 2rem;
+  -webkit-box-shadow: 2px 2px 5px 1px #eee;
+          box-shadow: 2px 2px 5px 1px #eee;
+}
+
+.wrapper .outlet .volunteers_section .volunteer_form div span {
+  text-align: right;
+  opacity: .8;
+  cursor: pointer;
+}
+
+.wrapper .outlet .volunteers_section .volunteer_form div button {
+  background: #a5a5ff;
+  padding: 1rem;
+  border-radius: .5rem;
+  border: none;
+  cursor: pointer;
+}
+
+.wrapper .outlet .volunteers_section .volunteer_form div form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.wrapper .outlet .volunteers_section .volunteer_form div form input {
+  margin: .5rem 0;
+  padding: 1rem;
+}
+
+.wrapper .outlet .volunteers_section .open-form {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
+
+.wrapper .outlet .volunteers_section .volunteers_container {
+  max-height: 86vh;
+  min-height: 86vh;
+  overflow-y: scroll;
+  min-width: 78vw;
+  max-width: 78vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.wrapper .outlet .volunteers_section .volunteers_container .volunteer {
+  height: 18rem;
+  width: 21rem;
+  margin: 1rem;
+  background: #fff;
+  -webkit-box-shadow: 2px 2px 5px 1px #ccc;
+          box-shadow: 2px 2px 5px 1px #ccc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 1rem 1.5rem;
+}
+
+.wrapper .outlet .volunteers_section .volunteers_container .volunteer p {
+  font-weight: 400;
+}
+
+.wrapper .outlet .volunteers_section .volunteers_container .volunteer span {
+  font-weight: bold;
+}
+
+.wrapper .outlet .volunteers_section .volunteers_container .volunteer button {
+  cursor: pointer;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  padding: .8rem;
+  border: none;
+  background: rgba(33, 66, 255, 0.8);
+  color: #fff;
+  font-size: .9rem;
+  border-radius: 5px;
+}
+
 .app_aside {
   -ms-grid-row: 1;
   -ms-grid-row-span: 1;

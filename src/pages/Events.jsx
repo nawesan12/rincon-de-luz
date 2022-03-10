@@ -1,12 +1,12 @@
 import React from 'react'
-import BlogsContainer from '../components/BlogsContainer'
+import UpcomingEvents from '../components/UpcomingEvents.jsx'
 
-function Blog() {
+function Events() {
     return (
         <div style={{paddingTop:'10vh', paddingBottom:'8vh', width:'60vw', margin:'auto'}}>
-            <BlogsContainer/>
+            <UpcomingEvents/>
         </div>
     )
 }
 
-export default Blog;
+export default Events

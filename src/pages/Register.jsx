@@ -53,7 +53,7 @@ export default function Register() {
             <p>Llena los siguientes campos y en los proximos dias nos encargaremos de contactarte para poder conocerte y brindarte una clave de acceso y usuario propios! Estaremos encantados de que seas parte de nuestra comunidad, a por un mundo mas gentil!</p>
 
             <form className='form-container'>
-                <input onChange={(value) => handleChangeText('name', value)} className="text-area" placeholder="Nombre" required autofocus/>
+                <input onChange={(value) => handleChangeText('name', value)} className="text-area" placeholder="Nombre" required/>
                 <input onChange={(value) => handleChangeText("surname", value)} className="name" type="text" placeholder="Apellido" required/>
                 <input onChange={(value) => handleChangeText("dni", value)} className="email" type="text" placeholder="DNI" required/>
                 <input onChange={(value) => handleChangeText("localidad", value)} className="website" placeholder="Localidad" required/>

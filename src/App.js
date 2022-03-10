@@ -1,8 +1,8 @@
 import './App.css';
 import './components/static/css/main.css'
 
-import Rooter from './components/Rooter'
-import Footer from './components/Footer'
+import Rooter from './components/Rooter.jsx'
+import Footer from './components/Footer.jsx'
 
 function App() {
   return (
