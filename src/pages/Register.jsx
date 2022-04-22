@@ -58,7 +58,6 @@ export default function Register() {
                 <input onChange={(value) => handleChangeText("dni", value)} className="email" type="text" placeholder="DNI" required/>
                 <input onChange={(value) => handleChangeText("localidad", value)} className="website" placeholder="Localidad" required/>
                 <input onChange={(value) => handleChangeText("direccion", value)} className="website" placeholder="Direccion" required/>
-                <input onChange={(value) => handleChangeText("dni", value)} className="website" placeholder="DNI" required/>
                 <input onChange={(value) => handleChangeText("email", value)} className="website" placeholder="Email" required/>
             </form>
             <button onClick={() => saveNewVolunteer()}>INSCRIBIRME</button>            
